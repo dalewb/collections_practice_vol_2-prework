@@ -21,6 +21,8 @@ end
 
 def first_wa(array)
   array.each do |word|
-    
+    if word[0..1].downcase == "wa"
+      return word 
+    end 
   end 
 end 
