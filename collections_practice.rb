@@ -80,9 +80,9 @@ def organize_schools(array)
     result[location] = [] 
   end 
   array.each do |el|
-    
-  end 
-  binding.pry 
+    locations[el[1][:location]] << el[0]
+    binding.pry 
+  end
 end 
 
 
