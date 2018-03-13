@@ -26,3 +26,10 @@ def first_wa(array)
     end 
   end 
 end 
+
+def remove_non_strings(array)
+  result = [] 
+  array.each do |el|
+    
+  end 
+end 
