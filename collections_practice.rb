@@ -1,3 +1,5 @@
+require 'pry'
+
 def begins_with_r(array)
   array.each do |word|
     if word[0].downcase != 'r'
@@ -6,3 +8,4 @@ def begins_with_r(array)
   end 
   true 
 end 
+
