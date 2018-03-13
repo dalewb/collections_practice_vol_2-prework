@@ -34,10 +34,9 @@ end
 def count_elements(array)
   count = Hash.new(0)
   array.each do |el|
-    count[el]
+    count[el] += 1 
   end 
-  # binding.pry 
-  count
+  
 end 
 
 
