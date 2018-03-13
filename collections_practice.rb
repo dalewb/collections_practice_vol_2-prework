@@ -48,7 +48,11 @@ def count_elements(array)
 end 
 
 def merge_data(keys, values)
-  
+  keys.each do |title, name|
+    values.each do |name2, attrs|
+      
+    end 
+  end 
 end 
 
 
