@@ -71,8 +71,9 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  result = [] 
+  result = Hash.new([])
   array.each do |el|
+    result[e
     binding.pry
   end 
 end 
