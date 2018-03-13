@@ -18,3 +18,9 @@ def contain_a(array)
   end 
   result 
 end 
+
+def first_wa(array)
+  array.each do |word|
+    
+  end 
+end 
