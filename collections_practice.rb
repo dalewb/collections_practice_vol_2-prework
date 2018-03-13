@@ -51,6 +51,7 @@ def merge_data(keys, values)
   result = []
   keys.each do |title, name1|
     values.each do |name2, attrs|
+      binding.pry 
       if name2 == name1 
         attrs[title] = name1
         result << attrs
