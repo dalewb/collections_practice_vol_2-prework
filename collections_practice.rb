@@ -62,8 +62,8 @@ def merge_data(keys, values)
   result 
 end 
 
-def find_cool
-  
+def find_cool(array)
+  binding.pry 
 end 
 
 
