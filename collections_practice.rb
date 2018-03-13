@@ -49,7 +49,7 @@ end
 
 def merge_data(keys, values)
   keys.each do |key|
-    values.each do |value_key, value|
+    values.each do |value|
       binding.pry 
     end 
   end 
