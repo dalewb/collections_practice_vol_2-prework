@@ -71,8 +71,10 @@ def find_cool(array)
 end
 
 def organize_schools(array)
+  locations = [] 
   result = Hash.new([])
   array.each do |el|
+    locations << el[1][:location]
     binding.pry
   end 
 end 
