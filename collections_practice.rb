@@ -51,6 +51,7 @@ def merge_data(keys, values)
   keys.each do |key|
     values.each do |attrs|
       attrs.each do |name, info|
+        
         binding.pry 
       end 
     end 
