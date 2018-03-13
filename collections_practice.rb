@@ -79,6 +79,9 @@ def organize_schools(array)
   locations.each do |location|
     result[location] = [] 
   end 
+  array.each do |el|
+    
+  end 
   binding.pry 
 end 
 
