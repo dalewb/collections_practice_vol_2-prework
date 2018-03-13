@@ -65,7 +65,7 @@ end
 def find_cool(array)
   array.each do |el|
     if el[:temperature] == "cool"
-      return array[idx] 
+      return [el] 
     end 
   end 
 end
