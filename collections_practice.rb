@@ -70,7 +70,9 @@ def find_cool(array)
   end 
 end
 
-def 
+def organize_schools(array)
+  binding.pry 
+end 
 
 
 
