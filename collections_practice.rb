@@ -48,13 +48,15 @@ def count_elements(array)
 end 
 
 def merge_data(keys, values)
+  result = [] 
   keys.each do |key|
     values.each do |attrs|
       attrs.each do |name, info|
         if key.values[0] == name
           info[key.keys[0]] = name
-        end 
-        binding.pry 
+          result << info 
+          binding.pry 
+        end
       end 
     end 
   end 
