@@ -63,7 +63,8 @@ def merge_data(keys, values)
 end 
 
 def find_cool(array)
-  binding.pry 
+  array.each do |el|
+    binding.pry
 end 
 
 
