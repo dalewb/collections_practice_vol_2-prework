@@ -37,11 +37,14 @@ def count_elements(array)
   hsh = {}
   array.each do |el|
     count[el] += 1 
-    hsh = el 
-    hsh[:count] = count[el] 
-    result << hsh 
-    hsh = {}
   end
+  count.each do |k,v|
+    hsh = k 
+    hsh[:count] = v 
+    result << hsh 
+    hsh = {} 
+  end 
+  result 
 end 
 
 
