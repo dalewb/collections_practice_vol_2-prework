@@ -65,7 +65,8 @@ end
 def find_cool(array)
   array.each do |el|
     binding.pry
-end 
+  end 
+end
 
 
 
