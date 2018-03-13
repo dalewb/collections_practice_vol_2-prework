@@ -10,7 +10,11 @@ def begins_with_r(array)
 end 
 
 def contain_a(array)
+  result = [] 
   array.each do |word|
-    
+    if word.include?('a')
+      result << word 
+    end 
   end 
+  result 
 end 
