@@ -63,10 +63,9 @@ def merge_data(keys, values)
 end 
 
 def find_cool(array)
-  array.each do |el|
-    binding.pry 
+  array.each_with_index do |el,idx|
     if el[:temperature] == "cool"
-      return el 
+      return array[idx] 
     end 
   end 
 end
