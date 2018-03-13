@@ -9,3 +9,8 @@ def begins_with_r(array)
   true 
 end 
 
+def contain_a(array)
+  array.each do |word|
+    
+  end 
+end 
