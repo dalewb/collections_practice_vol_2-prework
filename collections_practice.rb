@@ -74,7 +74,7 @@ def organize_schools(array)
   locations = [] 
   result = Hash.new([])
   array.each do |el|
-    locations << el[1][:location] unless el[1][:location]
+    locations << el[1][:location] unless locations.include?(el[1][:location])
     # binding.pry
   end 
   binding.pry 
