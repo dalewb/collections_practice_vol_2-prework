@@ -30,3 +30,10 @@ end
 def remove_non_strings(array)
   array.select {|el|  el.class == String}
 end 
+
+def count_elements
+
+
+
+
+
