@@ -31,8 +31,13 @@ def remove_non_strings(array)
   array.select {|el|  el.class == String}
 end 
 
-def count_elements
-  
+def count_elements(array)
+  count = Hash.new(0)
+  array.each do |el|
+    count[el] += 1
+  end 
+  binding.pry 
+  count 
 end 
 
 
