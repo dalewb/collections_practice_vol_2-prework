@@ -75,7 +75,11 @@ def organize_schools(array)
   result = Hash.new([])
   array.each do |el|
     locations << el[1][:location]
-    binding.pry
+    # binding.pry
+  end 
+  binding.pry 
+  arrays.each do |el|
+    
   end 
 end 
 
