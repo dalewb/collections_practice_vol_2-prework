@@ -28,6 +28,6 @@ def first_wa(array)
 end 
 
 def remove_non_strings(array)
-  result = [] 
-  array.select {|el|  el.class == }
+  # result = [] 
+  array.select {|el|  el.class == String}
 end 
