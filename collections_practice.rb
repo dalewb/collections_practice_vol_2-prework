@@ -29,7 +29,5 @@ end
 
 def remove_non_strings(array)
   result = [] 
-  array.each do |el|
-    
-  end 
+  array.select {|el|  el.class == }
 end 
