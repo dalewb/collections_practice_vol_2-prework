@@ -81,7 +81,6 @@ def organize_schools(array)
   end 
   array.each do |el|
     result[el[1][:location]] << el[0]
-    binding.pry 
   end
 end 
 
