@@ -65,7 +65,7 @@ end
 def find_cool(array)
   array.each do |el|
     binding.pry 
-    if array[:temperature] == "cool"
+    if el[:temperature] == "cool"
       return el 
     end 
   end 
