@@ -54,8 +54,7 @@ def merge_data(keys, values)
       attrs.each do |name, info|
         if key.values[0] == name
           info[key.keys[0]] = name
-          result << info 
-          binding.pry 
+          result << info
         end
       end 
     end 
@@ -63,7 +62,9 @@ def merge_data(keys, values)
   result 
 end 
 
-
+def find_cool
+  
+end 
 
 
 
