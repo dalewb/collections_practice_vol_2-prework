@@ -82,6 +82,7 @@ def organize_schools(array)
   array.each do |el|
     result[el[1][:location]] << el[0]
   end
+  result 
 end 
 
 
