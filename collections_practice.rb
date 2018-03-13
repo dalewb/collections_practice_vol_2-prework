@@ -73,7 +73,6 @@ end
 def organize_schools(array)
   result = Hash.new([])
   array.each do |el|
-    result[el[1][:location]] += el[0]
     binding.pry
   end 
 end 
